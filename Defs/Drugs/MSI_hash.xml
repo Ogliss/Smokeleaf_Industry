@@ -78,6 +78,7 @@
     <defName>HashHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>ripped on hash</label>
+    <description>ripped on hash</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
@@ -146,6 +147,7 @@
   <HediffDef ParentName="MSI_DrugToleranceBase">
     <defName>HashTolerance</defName>
     <label>Hash tolerance</label>
+    <description>Hash tolerance</description>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.0666</severityPerDay>
@@ -180,6 +182,7 @@
     <defName>HashAddiction</defName>
     <hediffClass>Hediff_Addiction</hediffClass>
     <label>Hash dependence</label>
+    <description>Hash dependence</description>
     <causesNeed>Chemical_Hash</causesNeed>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">

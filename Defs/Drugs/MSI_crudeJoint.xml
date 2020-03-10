@@ -92,6 +92,7 @@
     <defName>CrudeJointHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>stoned on crude smokeleaf joint</label>
+    <description>stoned on crude smokeleaf joint</description>
     <labelNoun>a smokeleaf high</labelNoun>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
@@ -162,6 +163,7 @@
   <HediffDef ParentName="DrugToleranceBase">
     <defName>CrudeJointTolerance</defName>
     <label>crude smokeleaf joint tolerance</label>
+    <description>crude smokeleaf joint tolerance</description>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.015</severityPerDay>
@@ -196,6 +198,7 @@
     <defName>CrudeJointAddiction</defName>
     <hediffClass>Hediff_Addiction</hediffClass>
     <label>crude smokeleaf joint dependence</label>
+    <description>crude smokeleaf joint dependence</description>
     <causesNeed>Chemical_CrudeJoint</causesNeed>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">

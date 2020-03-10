@@ -342,6 +342,7 @@
     <defName>EdiblesHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>stoned on edibles</label>
+    <description>stoned on edibles</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
@@ -639,6 +640,7 @@
     <defName>AdvancedEdiblesHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>really baked on edibles</label>
+    <description>really baked on edibles</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>

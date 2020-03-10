@@ -81,6 +81,7 @@
     <defName>CHOHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>blasted on chemfuel hash oil</label>
+    <description>blasted on chemfuel hash oil</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
@@ -149,6 +150,7 @@
   <HediffDef ParentName="MSI_DrugToleranceBase">
     <defName>CHOTolerance</defName>
     <label>CHO tolerance</label>
+    <description>CHO tolerance</description>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.0666</severityPerDay>
@@ -174,6 +176,7 @@
     <defName>CHOAddiction</defName>
     <hediffClass>Hediff_Addiction</hediffClass>
     <label>CHO dependence</label>
+    <description>CHO dependence</description>
     <causesNeed>Chemical_CHO</causesNeed>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">

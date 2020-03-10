@@ -3,17 +3,22 @@
 
   <!--==========  Bulk Joint Recipe ==========-->
 
-	<Operation Class="PatchOperationSequence"> 
-	    <success>Always</success>
+	<Operation Class="PatchOperationSequence">
 		<operations>
-			<li Class="ModCheck.isModLoaded">
-				<modName>VGP Garden Medicine</modName>
-				<yourMod>Smokeleaf Industry</yourMod>
-			</li>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>VGP Garden Medicine</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/RecipeDef[defName = "VG_BulkSmokeleafJoint"]</xpath>
 			</li>
-		</operations>
+					</operations>
+				</match>
+			</li>
+		</operations>	
 	</Operation>
 	
 </Patch>

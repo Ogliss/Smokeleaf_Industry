@@ -12,6 +12,7 @@
 	<HediffDef ParentName="MSI_DiseaseBase">
 		<defName>EdibleSickness</defName>
 		<label>edible sickness</label>
+		<description>edible sickness</description>
 		<makesSickThought>true</makesSickThought>
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<comps>
@@ -46,6 +47,7 @@
 	<HediffDef ParentName="MSI_DiseaseBase">
 		<defName>InfusedBuzz</defName>
 		<label>infused buzz</label>
+		<description>infused buzz</description>
 		<makesSickThought>false</makesSickThought>
 		<scenarioCanAdd>false</scenarioCanAdd>
 		<isBad>false</isBad>

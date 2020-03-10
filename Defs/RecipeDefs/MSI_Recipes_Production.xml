@@ -11,7 +11,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>500</workAmount>
-  		<workSpeedStat>TailoringSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.0</workSkillLearnFactor>
 		<skillRequirements>
@@ -51,7 +51,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>1250</workAmount>
-  		<workSpeedStat>TailoringSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.0</workSkillLearnFactor>
 		<skillRequirements>
@@ -93,7 +93,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>350</workAmount>
-  		<workSpeedStat>TailoringSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.5</workSkillLearnFactor>
 		<skillRequirements>
@@ -133,7 +133,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>1400</workAmount>
-  		<workSpeedStat>TailoringSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.0</workSkillLearnFactor>
 		<skillRequirements>
@@ -175,7 +175,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>250</workAmount>
-  		<workSpeedStat>TailoringSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.5</workSkillLearnFactor>
 		<skillRequirements>
@@ -215,7 +215,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>1000</workAmount>
-  		<workSpeedStat>TailoringSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.0</workSkillLearnFactor>
 		<skillRequirements>
@@ -257,7 +257,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>500</workAmount>
-  		<workSpeedStat>TailoringSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.0</workSkillLearnFactor>
 		<skillRequirements>
@@ -297,7 +297,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>1500</workAmount>
-  		<workSpeedStat>TailoringSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.0</workSkillLearnFactor>
 		<skillRequirements>
@@ -337,7 +337,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>2500</workAmount>
-  		<workSpeedStat>TailoringSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.0</workSkillLearnFactor>
 		<skillRequirements>
@@ -379,7 +379,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>300</workAmount>
-  		<workSpeedStat>TailoringSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.5</workSkillLearnFactor>
 		<skillRequirements>
@@ -418,7 +418,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>2000</workAmount>
-  		<workSpeedStat>TailoringSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.0</workSkillLearnFactor>
 		<skillRequirements>
@@ -459,7 +459,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>500</workAmount>
-  		<workSpeedStat>TailoringSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.5</workSkillLearnFactor>
 		<skillRequirements>
@@ -506,7 +506,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>3000</workAmount>
-  		<workSpeedStat>TailoringSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.0</workSkillLearnFactor>
 		<skillRequirements>
@@ -555,7 +555,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>350</workAmount>
-  		<workSpeedStat>SmithingSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.5</workSkillLearnFactor>
 		<skillRequirements>
@@ -612,7 +612,7 @@
 		<effectWorking>Tailor</effectWorking>
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>2500</workAmount>
-  		<workSpeedStat>SmithingSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.0</workSkillLearnFactor>
 		<skillRequirements>
@@ -671,7 +671,7 @@
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
 		<workAmount>300</workAmount>
-  		<workSpeedStat>SmithingSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>1.75</workSkillLearnFactor>
 		<researchPrerequisite>IndustrialSmokeleafProcessing</researchPrerequisite>
@@ -706,7 +706,7 @@
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
 		<workAmount>1500</workAmount>
-  		<workSpeedStat>SmithingSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>1.75</workSkillLearnFactor>
 		<researchPrerequisite>IndustrialSmokeleafProcessing</researchPrerequisite>
@@ -743,7 +743,7 @@
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
 		<workAmount>500</workAmount>
-  		<workSpeedStat>SmithingSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.5</workSkillLearnFactor>
 		<skillRequirements>
@@ -790,7 +790,7 @@
 		<effectWorking>Smelt</effectWorking>
 		<soundWorking>Recipe_Smelt</soundWorking>
 		<workAmount>2500</workAmount>
-  		<workSpeedStat>SmithingSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>2.0</workSkillLearnFactor>
 		<skillRequirements>
@@ -999,7 +999,7 @@
 		<description>Compress hemp products into hempcrete blocks.</description>
 		<jobString>Making hempcrete blocks.</jobString>
 		<workAmount>1000</workAmount>
-  		<workSpeedStat>SmithingSpeed</workSpeedStat>
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<ingredients>
 			<li>
 				<filter>
@@ -1035,7 +1035,7 @@
 		<description>Compress hemp products into hempcrete blocks.</description>
 		<jobString>Making hempcrete blocks.</jobString>
 		<workAmount>2500</workAmount>
-  		<workSpeedStat>SmithingSpeed</workSpeedStat> 
+  		<workSpeedStat>GeneralLaborSpeed</workSpeedStat> 
 		<ingredients>
 			<li>
 				<filter>

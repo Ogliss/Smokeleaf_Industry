@@ -79,6 +79,7 @@
     <defName>SmokeleafDistillateHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>lit on distillate</label>
+    <description>lit on distillate</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
     <maxSeverity>1.0</maxSeverity>
@@ -151,6 +152,7 @@
   <HediffDef ParentName="MSI_DrugToleranceBase">
     <defName>SmokeleafDistillateTolerance</defName>
     <label>smokeleaf distillate tolerance</label>
+    <description>smokeleaf distillate tolerance</description>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.0666</severityPerDay>
@@ -165,6 +167,7 @@
     <defName>SmokeleafDistillateAddiction</defName>
     <hediffClass>Hediff_Addiction</hediffClass>
     <label>smokeleaf distillate dependence</label>
+    <description>smokeleaf distillate dependence</description>
     <causesNeed>Chemical_SmokeleafDistillate</causesNeed>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">

@@ -4,12 +4,15 @@
   <!--========== Baking ==========-->
 	
 	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
 		<operations>
-			<li Class="ModCheck.isModLoaded">
-				<modName>VGP Garden Gourmet</modName>
-				<yourMod>Smokeleaf Industry</yourMod>
-			</li>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>VGP Garden Gourmet</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+					
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName = "BakeBread"]/ingredients/li[1]/filter/thingDefs</xpath>
 				<value>
@@ -130,18 +133,24 @@
 					<li>HempFlour</li>
 				</value>
 			</li>
-		</operations>
+					</operations>
+				</match>
+			</li>
+		</operations>	
 	</Operation>
 	
   <!--========== Chocolate Milk ==========-->
 
 	<Operation Class="PatchOperationSequence">
-		<success>Always</success> 
 		<operations>
-			<li Class="ModCheck.isModLoaded">
-				<modName>VGP Garden Gourmet</modName>
-				<yourMod>Smokeleaf Industry</yourMod>
-			</li>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>VGP Garden Gourmet</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+					
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName = "MakeChocolatemilk"]/ingredients/li[2]/filter/thingDefs</xpath>
 				<value>
@@ -154,18 +163,23 @@
 					<li>HempMilk</li>
 				</value>
 			</li>
-		</operations>
+					</operations>
+				</match>
+			</li>
+		</operations>	
 	</Operation>
 	
   <!--========== Sweets Table ==========-->
 	
 	<Operation Class="PatchOperationSequence">
-		<success>Always</success> 
 		<operations>
-			<li Class="ModCheck.isModLoaded">
-				<modName>VGP Garden Gourmet</modName>
-				<yourMod>Smokeleaf Industry</yourMod>
-			</li>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>VGP Garden Gourmet</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName = "MakeIcecream"]/ingredients/li[3]/filter/thingDefs</xpath>
 				<value>
@@ -202,18 +216,23 @@
 					<li>HempMilk</li>
 				</value>
 			</li>
-		</operations>
+					</operations>
+				</match>
+			</li>
+		</operations>	
 	</Operation>
 	
   <!--========== Cheese ==========-->
 	
 	<Operation Class="PatchOperationSequence">
-		<success>Always</success> 
 		<operations>
-			<li Class="ModCheck.isModLoaded">
-				<modName>VGP Garden Gourmet</modName>
-				<yourMod>Smokeleaf Industry</yourMod>
-			</li>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>VGP Garden Gourmet</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/RecipeDef[defName = "Makesoycheese"]/ingredients/li[1]/filter/thingDefs</xpath>
 				<value>
@@ -226,7 +245,10 @@
 					<li>HempMilk</li>
 				</value>
 			</li>
-		</operations>
+					</operations>
+				</match>
+			</li>
+		</operations>	
 	</Operation>
 	
 </Patch>

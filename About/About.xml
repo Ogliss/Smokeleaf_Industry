@@ -2,7 +2,10 @@
 <ModMetaData>
 	<name>Smokeleaf Industry</name>
 	<author>larSyn</author>
-	<targetVersion>1.0.2059</targetVersion>
+   <supportedVersions>
+      <li>1.1</li>
+   </supportedVersions>
 	<url>https://ludeon.com/forums/index.php?topic=35747.0</url>
+   <packageId>Ogliss.larSyn.SmokeleafIndustry</packageId>
 	<description>For all your medicinal, recreational and industrial smokeleaf needs. Smokeleaf Industry adds various new drugs, foods, medicines, and more.  All derived from smokeleaf and based on actual real world uses of "smokeleaf".</description>
 </ModMetaData>

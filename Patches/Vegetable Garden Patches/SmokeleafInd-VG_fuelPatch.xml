@@ -4,27 +4,20 @@
   <!--========== Biofuel Recipe Changes ==========-->
   
 	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
 		<operations>
-			<li Class="ModCheck.isModLoaded">
-				<modName>VGP Vegetable Garden</modName>
-				<yourMod>Smokeleaf Industry</yourMod>
-			</li>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>VGP Vegetable Garden</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+					
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "HempolineGenerator"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter/thingDefs</xpath>
 				<value>
 					<li>VG_Biofuel</li>
 				</value>
-			</li>
-		</operations>
-	</Operation>
-	
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="ModCheck.isModLoaded">
-				<modName>VGP Vegetable Garden</modName>
-				<yourMod>Smokeleaf Industry</yourMod>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/RecipeDef[defName = "VG_MakeBiofuel"]/ingredients/li/count</xpath>
@@ -37,16 +30,6 @@
 				<value>
 					<VG_Biofuel>5</VG_Biofuel>
 				</value>
-			</li>
-		</operations>
-	</Operation>
-	
-	<Operation Class="PatchOperationSequence">
-	    <success>Always</success> 
-		<operations>
-			<li Class="ModCheck.isModLoaded">
-				<modName>VGP Vegetable Garden</modName>
-				<yourMod>Smokeleaf Industry</yourMod>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs</xpath>
@@ -91,18 +74,24 @@
 					</RecipeDef>
 				</value>
 			</li>
-		</operations>
+					</operations>
+				</match>
+			</li>
+		</operations>	
 	</Operation>
-
+	
   <!--========== Bench Fuels ==========-->
 
 	<Operation Class="PatchOperationSequence">
-	    <success>Always</success>
-	    <operations>
-			<li Class="ModCheck.isModLoaded">
-				<modName>VGP Vegetable Gourmet</modName>
-				<yourMod>Smokeleaf Industry</yourMod>
-			</li>
+		<operations>
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>VGP Vegetable Garden</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<success>Always</success>
+					<operations>
+					
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "Oven"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter</xpath>
 			</li>
@@ -111,16 +100,6 @@
 			</li>
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName = "FueledCandyTable"]/comps/li[contains(@Class,'CompProperties_Refuelable')]/fuelFilter</xpath>
-			</li>
-		</operations>
-	</Operation>
-	
-	<Operation Class="PatchOperationSequence">
-	    <success>Always</success>
-		<operations>
-			<li Class="ModCheck.isModLoaded">
-				<modName>VGP Vegetable Gourmet</modName>
-				<yourMod>Smokeleaf Industry</yourMod>
 			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "Oven"]/comps/li[contains(@Class,'CompProperties_Refuelable')]</xpath>
@@ -158,7 +137,10 @@
         				</fuelFilter>
 					</value>
 			</li>
-		</operations>
+					</operations>
+				</match>
+			</li>
+		</operations>	
 	</Operation>
 	
 </Patch>

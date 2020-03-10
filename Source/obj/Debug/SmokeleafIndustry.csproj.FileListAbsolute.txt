@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Smokeleaf_Industry\Source\obj\Debug\SmokeleafIndustry.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Smokeleaf_Industry\Source\obj\Debug\SmokeleafIndustry.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Smokeleaf_Industry\Source\bin\Debug\SmokeleafIndustry.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Smokeleaf_Industry\Source\bin\Debug\SmokeleafIndustry.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Smokeleaf_Industry\Source\obj\Debug\SmokeleafIndustry.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Smokeleaf_Industry\Source\obj\Debug\SmokeleafIndustry.pdb

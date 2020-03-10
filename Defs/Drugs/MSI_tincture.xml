@@ -59,6 +59,7 @@
     <defName>SmokeleafTinctureHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>smokeleaf tincture</label>
+    <description>smokeleaf tincture</description>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <maxSeverity>1.0</maxSeverity>
     <comps>

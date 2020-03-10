@@ -13,7 +13,6 @@
 		</statBases>
 		<designationCategory>Floors</designationCategory>
 		<constructEffect>ConstructDirt</constructEffect>
-		<acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<fertility>0</fertility>
 		<researchPrerequisites>

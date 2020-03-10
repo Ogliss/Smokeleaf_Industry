@@ -93,6 +93,7 @@
     <defName>CannagarHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>stoned on a Cannagar</label>
+    <description>stoned on a Cannagar</description>
     <labelNoun>stoniness</labelNoun>
     <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
     <scenarioCanAdd>true</scenarioCanAdd>
@@ -167,6 +168,7 @@
   <HediffDef ParentName="DrugToleranceBase">
     <defName>CannagarTolerance</defName>
     <label>smokeleaf cannagar tolerance</label>
+    <description>smokeleaf cannagar tolerance</description>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.015</severityPerDay>
@@ -201,6 +203,7 @@
     <defName>CannagarAddiction</defName>
     <hediffClass>Hediff_Addiction</hediffClass>
     <label>smokeleaf cannagar dependence</label>
+    <description>smokeleaf cannagar dependence</description>
     <causesNeed>Chemical_Cannagar</causesNeed>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">

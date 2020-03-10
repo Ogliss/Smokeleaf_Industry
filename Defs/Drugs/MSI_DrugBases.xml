@@ -82,6 +82,7 @@
 		<defaultLabelColor>(255,0,127)</defaultLabelColor>
 		<initialSeverity>0.5</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
+		<description>.</description>
 		<scenarioCanAdd>true</scenarioCanAdd>
 	</HediffDef>
 
@@ -89,6 +90,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(179,86,132)</defaultLabelColor>
 		<maxSeverity>1.0</maxSeverity>
+		<description>.</description>
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<stages>
 			<li>
